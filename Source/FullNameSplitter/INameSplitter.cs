@@ -1,4 +1,4 @@
-﻿namespace NameSplitter
+﻿namespace FullNameSplitter
 {
     public interface INameSplitter
     {

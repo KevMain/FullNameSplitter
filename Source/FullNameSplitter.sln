@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NameSplitter", "NameSplitter\NameSplitter.csproj", "{9B436145-14A0-4073-AB9D-B4D26736593F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp", "TestApp\TestApp.csproj", "{9B436145-14A0-4073-AB9D-B4D26736593F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NameSplitter.UnitTests", "NameSplitter.UnitTests\NameSplitter.UnitTests.csproj", "{092BBF31-24A5-4FCA-A58F-013094EF36A1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FullNameSplitter.UnitTests", "FullNameSplitter.UnitTests\FullNameSplitter.UnitTests.csproj", "{092BBF31-24A5-4FCA-A58F-013094EF36A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FullNameSplitter", "FullNameSplitter\FullNameSplitter.csproj", "{3482DA84-F5A0-4BB7-B566-16069A29436D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{092BBF31-24A5-4FCA-A58F-013094EF36A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{092BBF31-24A5-4FCA-A58F-013094EF36A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{092BBF31-24A5-4FCA-A58F-013094EF36A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3482DA84-F5A0-4BB7-B566-16069A29436D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3482DA84-F5A0-4BB7-B566-16069A29436D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3482DA84-F5A0-4BB7-B566-16069A29436D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3482DA84-F5A0-4BB7-B566-16069A29436D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

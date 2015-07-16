@@ -6,8 +6,8 @@
     <ProjectGuid>{092BBF31-24A5-4FCA-A58F-013094EF36A1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NameSplitter.TEst</RootNamespace>
-    <AssemblyName>NameSplitter.TEst</AssemblyName>
+    <RootNamespace>FullNameSplitter.UnitTests</RootNamespace>
+    <AssemblyName>FullNameSplitter.UnitTests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -50,13 +50,13 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="NameSplitterTests.cs" />
+    <Compile Include="FullNameSplitterTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\NameSplitter\NameSplitter.csproj">
-      <Project>{9b436145-14a0-4073-ab9d-b4d26736593f}</Project>
-      <Name>NameSplitter</Name>
+    <ProjectReference Include="..\FullNameSplitter\FullNameSplitter.csproj">
+      <Project>{3482da84-f5a0-4bb7-b566-16069a29436d}</Project>
+      <Name>FullNameSplitter</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

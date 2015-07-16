@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NameSplitter
+namespace FullNameSplitter
 {
     public class NameSplitter : INameSplitter
     {

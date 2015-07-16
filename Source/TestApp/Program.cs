@@ -1,6 +1,7 @@
 ﻿using System;
+using FullNameSplitter;
 
-namespace NameSplitter
+namespace TestApp
 {
     class Program
     {
