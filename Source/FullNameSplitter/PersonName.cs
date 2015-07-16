@@ -1,12 +1,14 @@
-﻿namespace FullNameSplitter
+﻿using System;
+
+namespace FullNameSplitter
 {
     public class PersonName
     {
         private readonly NameParts _nameParts;
 
-        public PersonName(INameSplitter nameSplitter, string name)
+        public PersonName(string name)
         {
-            this._nameParts = nameSplitter.GetNamePartsFromName(name);
+            this._nameParts = new NameSplitter().GetNamePartsFromName(name);
         }
 
         public string GetFirstName()

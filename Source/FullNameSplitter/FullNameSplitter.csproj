@@ -39,7 +39,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="INameSplitter.cs" />
     <Compile Include="NameParts.cs" />
     <Compile Include="NameSplitter.cs" />
     <Compile Include="PersonName.cs" />

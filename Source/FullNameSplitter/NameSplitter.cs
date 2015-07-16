@@ -2,7 +2,7 @@
 
 namespace FullNameSplitter
 {
-    public class NameSplitter : INameSplitter
+    public class NameSplitter
     {
         private const char SPLIT_CHAR = ' ';
 

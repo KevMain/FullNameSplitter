@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>CompatibleSoftware.FullNameSplittler</id>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <title>Full Name Splitter Library by Compatible Software</title>
     <authors>Kevin Main</authors>
     <owners>Kevin Main</owners>
@@ -10,7 +10,7 @@
     <projectUrl>https://github.com/KevMain/FullNameSplitter</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>This package contains a library for splitting a name into its constituent parts</description>
-    <releaseNotes>Initial Release.</releaseNotes>
+    <releaseNotes>Removes redundant interface that no longer needs passing in to PersonName class.</releaseNotes>
     <copyright>Copyright 2015</copyright>
   </metadata>
 </package>

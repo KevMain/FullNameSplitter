@@ -26,7 +26,7 @@ namespace TestApp
 
             var name = Console.ReadLine();
 
-            var personName = new PersonName(new NameSplitter(), name);
+            var personName = new PersonName(name);
             Console.WriteLine("First Name is " + personName.GetFirstName());
             Console.WriteLine("Surname is " + personName.GetSurname());
 
